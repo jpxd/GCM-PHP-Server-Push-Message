@@ -1,5 +1,5 @@
 {
-    "name": "jpxd/php-gcm-push",
+    "name": "jpxd/GCM-PHP-Server-Push-Message",
     "description": "GCM push notifications in PHP",
     "type": "library",
     "require": {}
