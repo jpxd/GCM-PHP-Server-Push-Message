@@ -1,4 +1,5 @@
 <?php
+namespace GCM;
 /*
 	Class to send push notifications using Google Cloud Messaging for Android
 
@@ -32,7 +33,7 @@ class GCMPushMessage {
 		Constructor
 		@param $apiKeyIn the server API key
 	*/
-	function GCMPushMessage($apiKeyIn){
+	function __construct($apiKeyIn){
 		$this->serverApiKey = $apiKeyIn;
 	}
 
