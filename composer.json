@@ -2,6 +2,9 @@
     "name": "jpxd/GCM-PHP-Server-Push-Message",
     "description": "GCM push notifications in PHP",
     "type": "library",
-    "version": "1.0.0",
-    "require": {}
+    "version": "1.0.1",
+    "require": {},
+    "autoload" : {
+        "psr-0" : {"GCM" : "src"}
+    }
 }
